@@ -1,0 +1,118 @@
+@font-face {
+    font-family: space;
+    src: url("SOLAR SPACE DEMO.ttf");
+}
+@font-face {
+    font-family: s;
+    src: url("Space Angel.ttf");
+}
+
+.logo{
+    font-family: space;
+}
+
+
+.hero {
+        background-image: url("images/space.gif");
+        background-size: cover;
+        height: 600px; /* Adjust the height as per your requirements */
+}
+#maintitle {
+    font-family: s;
+    color: #8DD0D5ff;
+    text-shadow: 5px 3px 1px rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+}
+.input{
+    position: absolute;
+    top: 70%;
+    left: 7%;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    width:400px;
+    padding:10px;
+    border: none;
+    border-radius: 8px;
+}
+.custom-button {
+    margin-left: 20px;
+    background-color: rgb(24, 135, 143); /* Custom background color */
+    color: #000000; /* Custom text color */
+    border-radius: 8px; /* Custom border radius */
+    padding: 10px 20px; /* Custom padding */
+    font-size: 16px; /* Custom font size */
+}
+
+
+
+.custom-button:hover {
+  background-color: #990000; /* Custom background color on hover */
+  border-color: #990000; /* Custom border color on hover */
+  color: #FFFFFF; /* Custom text color on hover */
+}
+.main {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #B1D6F9ff;
+  }
+  
+  .main > div {
+    flex: 1;
+    height: 300px;
+  }
+  
+  .first {
+   
+  }
+  
+  .second {
+   
+  }
+  
+  .third {
+    
+  }
+.space-title , .space-describtion{
+    text-align: center;
+   margin-left: 30px;
+   font-family: s;
+   color:#990000;
+   text-shadow: 0px 0px 1px aqua;
+   font-size: 16PX;
+  
+  
+}
+.space-describtion{
+    font-size: medium;
+    color:black;
+    font-family: sans-serif;
+    margin-left: 30px;
+    text-shadow: none;
+} 
+.img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 30px auto 20px  auto;
+    border: 3px solid #990000;
+     border-radius: 50%;
+}
+footer{
+  height: 50px;
+  background-color:#000000;
+}
+.footer-text{
+  position: relative;
+  top: 10px;
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+   font-family: serif;
+}
