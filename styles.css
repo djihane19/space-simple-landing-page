@@ -108,7 +108,7 @@ input{
   border-color: #71790e;
 }
 .quotes{
-  height:260px;
+  height:600px;
   background-image: url("images/john-fowler-7Ym9rpYtSdA-unsplash.jpg");
   background-size: cover;
 }
@@ -117,14 +117,24 @@ input{
   font-family: serif;
   font-weight: bold;
   text-align: center;
-  color:aliceblue
+  color:aliceblue;
+  text-shadow: 1px 1px 1px #990000;
+  font-size: 20px;
+}
+ 
+.A {
+  margin-top: 150px;
 }
 .quote-title{
   position: relative;
-  top: 20px;
-  size:18px;
-   text-shadow: 0px 0px 1px white;
-   font-family: Arial, Helvetica, sans-serif;
+  top: 100px;
+   font-size:26px;
+   text-shadow: 5px 5px 5px #990000;
+   color: rgb(248, 113, 3);
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  
    
 }
 footer{
