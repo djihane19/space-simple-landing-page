@@ -79,7 +79,7 @@ input{
   .third {
     
   }
-.space-title , .space-describtion{
+.space-title , .space-describtion , .quote-title{
     text-align: center;
    margin-left: 30px;
    font-family: s;
@@ -103,6 +103,29 @@ input{
     margin: 30px auto 20px  auto;
     border: 3px solid #990000;
      border-radius: 50%;
+}
+.img:hover{
+  border-color: #71790e;
+}
+.quotes{
+  height:260px;
+  background-image: url("images/john-fowler-7Ym9rpYtSdA-unsplash.jpg");
+  background-size: cover;
+}
+.quote-text{
+  margin: 30px auto;
+  font-family: serif;
+  font-weight: bold;
+  text-align: center;
+  color:aliceblue
+}
+.quote-title{
+  position: relative;
+  top: 20px;
+  size:18px;
+   text-shadow: 0px 0px 1px white;
+   font-family: Arial, Helvetica, sans-serif;
+   
 }
 footer{
   height: 50px;
